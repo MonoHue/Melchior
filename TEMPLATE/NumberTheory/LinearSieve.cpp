@@ -1,38 +1,48 @@
 /*
-    *   Eratosthenes Sieve with O(n) Complexity
-    *
-    *   An improved Eratosthenes Sieve to find all prime numbers in [2, range).
-    *
-    *   Required Header File:
-    *       <cstring> - memset().
-    *   Input:
-    *       None.
-    *   Output:
-    *       int prime[RANGE]
-    *           An 0-index array with primes, like {2, 3, 5, ...}.
-    *           Mention that RANGE indicates the range of the WORST case.
-    *   Return:
-    *       The quantity of prime numbers in [2, range).
-    *   Parameter:
-    *       int range
-    *           Indicate the end of the range.
-    *
-*/
+ *  Eratosthenes Sieve with O(n) Complexity
+ *
+ *  The improved Eratosthenes Sieve to find all prime numbers in [2, range).
+ *
+ *  Required Header File:
+ *      <cstring> - memset().
+ *
+ *  Prerequisite:
+ *      const int RANGE
+ *          Declare the MAX RANGE.
+ *      int cnt = 0
+ *          The index of prime[] & count of prime numbers.
+ *
+ *  Product:
+ *      int prime[]
+ *          A 0-index array consists of primes, like {2, 3, 5, ...}.
+ *          Numbers inside are in [2, range).
+ *          The valid interval is [0, cnt).
+ *      bool isprime[]
+ *          A array indicates whether a number is prime.
+ *          e.g.    isprime[2] checks whether 2 is a prime number.
+ *
+ *  Functions:
+ *  int linearsieve(int range)
+ *      Make prime[] and isprime[].
+ *      Parameter:
+ *          range - Declare the end of the function.
+ *      Return:
+ *          The quantity of prime numbers in [2, range).
+ *
+ */
 
-//Parameter
-const int RANGE = 100000;   //  [2, RANGE)
-//Output
+//Prerequisite
+const int RANGE = 1e9;   //  [2, RANGE) - The upperbound of the problem.
+int cnt = 0;    //The index of prime[] & count of prime numbers.
+//Product
 int prime[RANGE];
+bool isprime[RANGE];    //Indicate whether the number is prime.
 
 //Return the quantity of prime numbers in [2, range).
 int linearsieve(int range)   {  //  [2, range)
-    //Intermediate Variables
-    int cnt = 0;    //The index of prime[] & counter of prime numbers.
-    bool isprime[RANGE];    //Indicate whether the number is prime.
-
     //Initialization
     memset(prime, 0, sizeof(prime));
-    memset(isprime, 0, sizeof(isprime));
+    memset(isprime, true, sizeof(isprime));
 
     for (int i = 2;i <= range;i++) {
         if (arr[i] == true)    prime[cnt++] = i;
