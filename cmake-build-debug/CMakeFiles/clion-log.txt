@@ -1,0 +1,4 @@
+"/Users/libertyli/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/203.6682.181/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/libertyli/Desktop/Melchior
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/libertyli/Desktop/Melchior/cmake-build-debug
