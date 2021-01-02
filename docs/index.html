@@ -1,34 +1,46 @@
 ---
-layout: home-page
-title: Melchoir - A contestant's reflection
+layout: homepage
+description: Melchoir
 ---
 
-<!-- This loops through the paginated posts -->
 {% for post in paginator.posts %}
-<h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-<p class="author">
-    <span class="date">{{ post.date }}</span>
-</p>
-<div class="content">
-    {{ post.content }}
+<div class="post-preview">
+    <a href="{{ post.url | prepend: site.baseurl }}">
+        <h2 class="post-title">
+            {{ post.title }}
+        </h2>
+        {% if post.subtitle %}
+        <h3 class="post-subtitle">
+            {{ post.subtitle }}
+        </h3>
+        {% endif %}
+        <div class="post-content-preview">
+            {% if post.lang == 'en' %}
+            {{ post.content | strip_html | truncate:300 }}
+            {% else %}
+            {{ post.content | strip_html | truncate:200 }}
+            {% endif %}
+        </div>
+    </a>
+    <p class="post-meta">
+        Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}
+    </p>
 </div>
+<hr>
 {% endfor %}
 
-<!-- Pagination links -->
-<div class="pagination">
+<!-- Paginator -->
+{% if paginator.total_pages > 1 %}
+<ul class="pager">
     {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path }}" class="previous">
-        Previous
-    </a>
-    {% else %}
-    <span class="previous">Previous</span>
+    <li class="previous">
+        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
+    </li>
     {% endif %}
-    <span class="page_number ">
-    Page: {{ paginator.page }} of {{ paginator.total_pages }}
-  </span>
     {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path }}" class="next">Next</a>
-    {% else %}
-    <span class="next ">Next</span>
+    <li class="next">
+        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
+    </li>
     {% endif %}
-</div>
+</ul>
+{% endif %}
