@@ -143,32 +143,32 @@ Melchior/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Melchior.dir/build.make CMakeFiles/Melchior.dir/build
 .PHONY : Melchior/fast
 
-LUOGU_P1001.o: LUOGU_P1001.cpp.o
+LUOGU/LUOGU_P1001.o: LUOGU/LUOGU_P1001.cpp.o
 
-.PHONY : LUOGU_P1001.o
+.PHONY : LUOGU/LUOGU_P1001.o
 
 # target to build an object file
-LUOGU_P1001.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Melchior.dir/build.make CMakeFiles/Melchior.dir/LUOGU_P1001.cpp.o
-.PHONY : LUOGU_P1001.cpp.o
+LUOGU/LUOGU_P1001.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Melchior.dir/build.make CMakeFiles/Melchior.dir/LUOGU/LUOGU_P1001.cpp.o
+.PHONY : LUOGU/LUOGU_P1001.cpp.o
 
-LUOGU_P1001.i: LUOGU_P1001.cpp.i
+LUOGU/LUOGU_P1001.i: LUOGU/LUOGU_P1001.cpp.i
 
-.PHONY : LUOGU_P1001.i
+.PHONY : LUOGU/LUOGU_P1001.i
 
 # target to preprocess a source file
-LUOGU_P1001.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Melchior.dir/build.make CMakeFiles/Melchior.dir/LUOGU_P1001.cpp.i
-.PHONY : LUOGU_P1001.cpp.i
+LUOGU/LUOGU_P1001.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Melchior.dir/build.make CMakeFiles/Melchior.dir/LUOGU/LUOGU_P1001.cpp.i
+.PHONY : LUOGU/LUOGU_P1001.cpp.i
 
-LUOGU_P1001.s: LUOGU_P1001.cpp.s
+LUOGU/LUOGU_P1001.s: LUOGU/LUOGU_P1001.cpp.s
 
-.PHONY : LUOGU_P1001.s
+.PHONY : LUOGU/LUOGU_P1001.s
 
 # target to generate assembly for a file
-LUOGU_P1001.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Melchior.dir/build.make CMakeFiles/Melchior.dir/LUOGU_P1001.cpp.s
-.PHONY : LUOGU_P1001.cpp.s
+LUOGU/LUOGU_P1001.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Melchior.dir/build.make CMakeFiles/Melchior.dir/LUOGU/LUOGU_P1001.cpp.s
+.PHONY : LUOGU/LUOGU_P1001.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Melchior"
-	@echo "... LUOGU_P1001.o"
-	@echo "... LUOGU_P1001.i"
-	@echo "... LUOGU_P1001.s"
+	@echo "... LUOGU/LUOGU_P1001.o"
+	@echo "... LUOGU/LUOGU_P1001.i"
+	@echo "... LUOGU/LUOGU_P1001.s"
 .PHONY : help
 
 

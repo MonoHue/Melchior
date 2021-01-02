@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/libertyli/Desktop/Melchior/LUOGU_P1001.cpp">
+		<Unit filename="/Users/libertyli/Desktop/Melchior/LUOGU/LUOGU_P1001.cpp">
 			<Option target="Melchior"/>
 		</Unit>
 		<Unit filename="/Users/libertyli/Desktop/Melchior/CMakeLists.txt">
