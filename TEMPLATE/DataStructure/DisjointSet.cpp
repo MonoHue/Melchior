@@ -1,7 +1,6 @@
 /*
  *  Disjoint Set
- *  Todo:   Merge by Rank[]
- *          Implementations
+ *  Todo:   Implementations
  *          Comments
  *          Descriptions
  *
@@ -12,8 +11,11 @@
  *          parent[] will be directed to the root of the element instead of the parent of the element.
  *          You will lose rank[] and the REAL parent.
  *      b.  Merge by Rank[]
- *          It records the depth of every element in the tree, according to the sequence of operations.
- *          You can choose to attach the smaller tree to the larger tree to reduce the overall depth, but it will ruin the sequence of operations.
+ *          It will always attach the smaller tree to the bigger one.
+ *          If you just need to MERGE two trees, this type will makes a tree with minimum depth.
+ *      c.  Merge by Sequence
+ *          It will always follow the instructions, attaching one tree to another.
+ *          Notice that in some cases, this type will turn into a linked list.
  *
  *  Required Header File:
  *      None.
@@ -24,17 +26,25 @@
  *
  *  Product:
  *      use findroot(a)==findroot(b) to check whether a,b is in the same set.
+ *      int parent[]
+ *          parent[i] is i's parent (or root, if (a) is enabled).
+ *      int rank[]
+ *          The depth of the element in the tree. Root's depth is 1.
  *
  *  Functions:
- *
+ *  void init(int range)
+ *      Initialize the parent[] and rank[]
  */
 
 
 //Prerequisite
 const int RANGE = 1e9;
+//Product
 int	parent[RANGE];
 int rank[RANGE];    //i.e.  The depth of the tree.
+//Switch
 bool PATHSPLITTING = true;
+bool MERGEBYRANK = true;
 
 //[0, range) - the range of the case
 void init(int range) {
