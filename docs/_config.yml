@@ -2,4 +2,4 @@ theme: jekyll-theme-slate
 name: MonoHue
 paginator: 5
 paginate_path: "page:num"
-permalink: 
+baseurl: contestant.magi.red/

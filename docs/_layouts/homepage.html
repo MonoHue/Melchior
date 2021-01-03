@@ -15,7 +15,8 @@
             </svg>
         </div>
         <div class="TimelineItem-body">
-            <a href="{{ post.authorlink | prepend: site.baseurl }}" title="{{ post.author }}" class="text-bold">{{ post.author }}</a> created
+            {% assign author = site.data.people[page.author] %}
+            <a rel="author" href="{{ author.authorlink | prepend: site.baseurl}}" title="{{ author.nickname }}">{{ author.nickname }}</a> created
             <a href="{{ post.url }}" title="{{ post.title }}" class="text-bold">{{ post.title }}</a>
             <p>{{ post.date | date_to_string }}</p>
         </div>
