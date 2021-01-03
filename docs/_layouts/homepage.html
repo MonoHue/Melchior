@@ -5,6 +5,47 @@
 
 {{ page.content }}
 
+<!--The table-->
+<div class="container">
+    <div class="col-4">
+        <div class="Box">
+            <div class="Box-header">
+                <h3 class="Box-title">
+                    Data Structure
+                </h3>
+            </div>
+            {% for post in site.category.math %}
+            <div class="Box-body">
+                <a href={{page.path}}>{{ page.title }}</a>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    <div class="col-4">
+        <div class="Box">
+            <div class="Box-header">
+                <h3 class="Box-title">
+                    Math
+                </h3>
+            </div>
+            <div class="Box-body">
+                Box body
+            </div>
+        </div>
+    </div>
+    <div class="col-4">
+        <div class="Box">
+            <div class="Box-header">
+                <h3 class="Box-title">
+                    Graph
+                </h3>
+            </div>
+            <div class="Box-body">
+                Box body
+            </div>
+        </div>
+    </div>
+</div>
 {% include footer.html %}
 
 </html>
