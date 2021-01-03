@@ -1,6 +1,7 @@
 ---
 category: math  
-title: testfile
+title: testfile  
+layout: post
 ---
 
 # It's a test file.
