@@ -7,45 +7,24 @@
 
 <!--The table-->
 <div class="container">
-    <div class="col-4 float-left">
+    {% for thiscategory in site.categories %}
+    <div class="col-4 float-left p-3">
         <div class="Box">
             <div class="Box-header">
                 <h3 class="Box-title">
-                    Data Structure
+                    {{thiscategory}}
                 </h3>
             </div>
-            {% for post in site.category.math %}
+            {% for post in site.category.thiscategory %}
             <div class="Box-body">
                 <a href={{page.path}}>{{ page.title }}</a>
             </div>
             {% endfor %}
         </div>
     </div>
-    <div class="col-4 float-left">
-        <div class="Box">
-            <div class="Box-header">
-                <h3 class="Box-title">
-                    Math
-                </h3>
-            </div>
-            <div class="Box-body">
-                Box body
-            </div>
-        </div>
-    </div>
-    <div class="col-4 float-left">
-        <div class="Box">
-            <div class="Box-header">
-                <h3 class="Box-title">
-                    Graph
-                </h3>
-            </div>
-            <div class="Box-body">
-                Box body
-            </div>
-        </div>
-    </div>
+    {% endfor %}
 </div>
+
 {% include footer.html %}
 
 </html>
