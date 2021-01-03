@@ -1,77 +1,80 @@
 <!DOCTYPE html>
 <html>
 
-{% include header.html %}
+{% include std.html %}
 
-<div class="container">
+<body>
+    <div class="container">
 
-    {{ page.content }}
+        {% include header.html %}
 
-    <div class="col-12 col-sm-11 col-md-10 col-lg-8 col-xl-6 mx-auto">
-        {% for post in site.posts %}
-        <div class="TimelineItem">
-            <div class="TimelineItem-badge bg-green text-white">
-                <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" class="octicon">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0zM8 0a8 8 0 100 16A8 8 0 008 0zM5 8a1 1 0 100-2 1 1 0 000 2zm7-1a1 1 0 11-2 0 1 1 0 012 0zM5.32 9.636a.75.75 0 011.038.175l.007.009a1.82 1.82 0 00.35.31c.264.178.683.37 1.285.37.602 0 1.02-.192 1.285-.371a1.82 1.82 0 00.35-.31l.007-.008a.75.75 0 011.222.87l-.614-.431c.614.43.614.431.613.431v.001l-.001.002-.002.003-.005.007-.014.019a1.989 1.989 0 01-.184.213 3.32 3.32 0 01-.53.445A3.766 3.766 0 018 12c-.946 0-1.652-.308-2.126-.63a3.323 3.323 0 01-.673-.604 1.975 1.975 0 01-.042-.053l-.014-.02-.005-.006-.002-.003v-.002h-.001l.613-.432-.614.43a.75.75 0 01.183-1.044z"></path>
-                </svg>
-            </div>
-            <div class="TimelineItem-body">
-                {% assign author = site.data.people[post.author] %}
-                <a rel="author" href="{{ author.authorlink | prepend: site.baseurl}}" title="{{ author.nickname }}" class="text-bold">{{ author.nickname }}</a> created
-                <a href="{{ post.url }}" title="{{ post.title }}" class="text-bold">{{ post.title }}</a>
-                <div class="Subhead Subhead--spacious">
-                    <div class="Subhead-heading">{{ post.title }}</div>
-                    <div class="Subhead-actions"><a href="{{ post.url }}" title="{{ post.title }}" class="text-bold">Learn more</a></div>
-                    <div class="Subhead-description">{{ post.date | date_to_string }}, <a rel="author" href="{{ author.authorlink | prepend: site.baseurl}}" title="{{ author.nickname }}" class="text-bold">{{ author.nickname }}</a></div>
+        {{ page.content }}
+
+        <div class="col-12 col-sm-11 col-md-10 col-lg-8 col-xl-6 mx-auto">
+            {% for post in site.posts %}
+            <div class="TimelineItem">
+                <div class="TimelineItem-badge bg-green text-white">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" class="octicon">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0zM8 0a8 8 0 100 16A8 8 0 008 0zM5 8a1 1 0 100-2 1 1 0 000 2zm7-1a1 1 0 11-2 0 1 1 0 012 0zM5.32 9.636a.75.75 0 011.038.175l.007.009a1.82 1.82 0 00.35.31c.264.178.683.37 1.285.37.602 0 1.02-.192 1.285-.371a1.82 1.82 0 00.35-.31l.007-.008a.75.75 0 011.222.87l-.614-.431c.614.43.614.431.613.431v.001l-.001.002-.002.003-.005.007-.014.019a1.989 1.989 0 01-.184.213 3.32 3.32 0 01-.53.445A3.766 3.766 0 018 12c-.946 0-1.652-.308-2.126-.63a3.323 3.323 0 01-.673-.604 1.975 1.975 0 01-.042-.053l-.014-.02-.005-.006-.002-.003v-.002h-.001l.613-.432-.614.43a.75.75 0 01.183-1.044z"></path>
+                    </svg>
                 </div>
-                <p>{{ post.excerpt | strip_html }}</p>
+                <div class="TimelineItem-body">
+                    {% assign author = site.data.people[post.author] %}
+                    <a rel="author" href="{{ author.authorlink | prepend: site.baseurl}}" title="{{ author.nickname }}" class="text-bold">{{ author.nickname }}</a> created
+                    <a href="{{ post.url }}" title="{{ post.title }}" class="text-bold">{{ post.title }}</a>
+                    <div class="Subhead Subhead--spacious">
+                        <div class="Subhead-heading">{{ post.title }}</div>
+                        <div class="Subhead-actions"><a href="{{ post.url }}" title="{{ post.title }}" class="text-bold">Learn more</a></div>
+                        <div class="Subhead-description">{{ post.date | date_to_string }}, <a rel="author" href="{{ author.authorlink | prepend: site.baseurl}}" title="{{ author.nickname }}" class="text-bold">{{ author.nickname }}</a></div>
+                    </div>
+                    <p>{{ post.excerpt | strip_html }}</p>
+                </div>
             </div>
+            {% endfor %}
         </div>
-        {% endfor %}
+
+    <!--    Paginator may not work on Github?-->
+
+    <!--    {% for post in paginator.posts %}-->
+    <!--    <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>-->
+    <!--    <p>-->
+    <!--        <span class="date">{{ post.date }}</span>-->
+    <!--    </p>-->
+    <!--    <div>-->
+    <!--        {{ post.content }}-->
+    <!--    </div>-->
+    <!--    {% endfor %}-->
+
+
+    <!--    <nav class="paginate-container" aria-label="Pagination">-->
+    <!--        {% if paginator.total_pages > 1 %}-->
+    <!--        <div class="pagination">-->
+    <!--            {% if paginator.previous_page %}-->
+    <!--            <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="previous_page">&laquo; Prev</a>-->
+    <!--            {% else %}-->
+    <!--            <span class="previous_page">&laquo; Prev</span>-->
+    <!--            {% endif %}-->
+
+    <!--            {% for page in (1..paginator.total_pages) %}-->
+    <!--            {% if page == paginator.page %}-->
+    <!--            <em>{{ page }}</em>-->
+    <!--            {% elsif page == 1 %}-->
+    <!--            <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>-->
+    <!--            {% else %}-->
+    <!--            <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>-->
+    <!--            {% endif %}-->
+    <!--            {% endfor %}-->
+
+    <!--            {% if paginator.next_page %}-->
+    <!--            <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="next_page">Next &raquo;</a>-->
+    <!--            {% else %}-->
+    <!--            <span class="next_page">Next &raquo;</span>-->
+    <!--            {% endif %}-->
+    <!--        </div>-->
+    <!--        {% endif %}-->
+    <!--    </nav>-->
     </div>
-
-<!--    Paginator may not work on Github?-->
-
-<!--    {% for post in paginator.posts %}-->
-<!--    <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>-->
-<!--    <p>-->
-<!--        <span class="date">{{ post.date }}</span>-->
-<!--    </p>-->
-<!--    <div>-->
-<!--        {{ post.content }}-->
-<!--    </div>-->
-<!--    {% endfor %}-->
-
-
-<!--    <nav class="paginate-container" aria-label="Pagination">-->
-<!--        {% if paginator.total_pages > 1 %}-->
-<!--        <div class="pagination">-->
-<!--            {% if paginator.previous_page %}-->
-<!--            <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="previous_page">&laquo; Prev</a>-->
-<!--            {% else %}-->
-<!--            <span class="previous_page">&laquo; Prev</span>-->
-<!--            {% endif %}-->
-
-<!--            {% for page in (1..paginator.total_pages) %}-->
-<!--            {% if page == paginator.page %}-->
-<!--            <em>{{ page }}</em>-->
-<!--            {% elsif page == 1 %}-->
-<!--            <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>-->
-<!--            {% else %}-->
-<!--            <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>-->
-<!--            {% endif %}-->
-<!--            {% endfor %}-->
-
-<!--            {% if paginator.next_page %}-->
-<!--            <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="next_page">Next &raquo;</a>-->
-<!--            {% else %}-->
-<!--            <span class="next_page">Next &raquo;</span>-->
-<!--            {% endif %}-->
-<!--        </div>-->
-<!--        {% endif %}-->
-<!--    </nav>-->
-</div>
-
+</body>
 {% include footer.html %}
 
 </html>
