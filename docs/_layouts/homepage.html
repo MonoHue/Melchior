@@ -7,15 +7,15 @@
 
 <!--The table-->
 <div class="container">
-    {% for thiscategory in site.categories %}
+    {% for category in site.categories %}
     <div class="col-4 float-left p-3">
         <div class="Box">
             <div class="Box-header">
                 <h3 class="Box-title">
-                    {{thiscategory}}
+                    {{category}}
                 </h3>
             </div>
-            {% for post in site.category.thiscategory %}
+            {% for post in category %}
             <div class="Box-body">
                 <a href={{page.path}}>{{ page.title }}</a>
             </div>
