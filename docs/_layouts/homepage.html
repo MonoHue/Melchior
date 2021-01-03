@@ -23,8 +23,8 @@
                     <div class="Subhead-heading">{{ post.title }}</div>
                     <div class="Subhead-actions"><a href="{{ post.url }}" title="{{ post.title }}" class="text-bold">Learn more</a></div>
                     <div class="Subhead-description">{{ post.date | date_to_string }}, <a rel="author" href="{{ author.authorlink | prepend: site.baseurl}}" title="{{ author.nickname }}" class="text-bold">{{ author.nickname }}</a></div>
-                    <p>{{ post.excerpt | strip_html }}</p>
                 </div>
+                <p>{{ post.excerpt | strip_html }}</p>
             </div>
         </div>
         {% endfor %}
