@@ -7,14 +7,16 @@
 
     {% include header.html %}
 
-    {% assign author = site.data.people[page.author] %}
-    <div class="Subhead Subhead--spacious">
-        <div class="Subhead-heading">{{ page.title }}</div>
-        <div class="Subhead-description">{{ page.date | date_to_string }}, <a rel="author" href="{{ author.authorlink | prepend: site.baseurl}}" title="{{ author.nickname }}" class="text-bold">{{ author.nickname }}</a></div>
-    </div>
+    <div class="col-12 col-sm-12 col-md-10 col-lg-8 col-xl-6 mx-auto">
+        {% assign author = site.data.people[page.author] %}
+        <div class="Subhead Subhead--spacious">
+            <div class="Subhead-heading">{{ page.title }}</div>
+            <div class="Subhead-description">{{ page.date | date_to_string }}, <a rel="author" href="{{ author.authorlink | prepend: site.baseurl}}" title="{{ author.nickname }}" class="text-bold">{{ author.nickname }}</a></div>
+        </div>
 
-    <div class="markdown-body">
-    {{ page.content }}
+        <div class="markdown-body">
+            {{ page.content }}
+        </div>
     </div>
 
 </div>
