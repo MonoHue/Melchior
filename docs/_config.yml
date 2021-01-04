@@ -1,4 +1,4 @@
-theme: jekyll-theme-slate
+baseurl: "Http://contestant.magi.red/"
 name: MonoHue
 paginate: 10
 paginate_path: "page:num"
