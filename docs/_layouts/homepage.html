@@ -8,9 +8,15 @@
 
         {% include header.html %}
 
-        {{ page.content }}
+        <div class="Subhead bg-yellow px-6 py-12">
+            <div class="Subhead-heading d-block f00-light text-emphasized text-blue text-italic" style="font-family: 'Noto Serif', serif;">Welcome to Melchior!</div>
+            <div class="Subhead-description lead f2-light">More than a Wildcard.</div>
+        </div>
 
         <div class="col-sm-12  col-md-10 col-lg-8 col-xl-6 mx-auto p-responsive">
+
+            {{ page.content }}
+
             {% for post in paginator.posts %}
             <div class="TimelineItem">
                 <div class="TimelineItem-badge bg-green text-white">
