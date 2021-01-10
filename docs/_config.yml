@@ -1,6 +1,6 @@
-baseurl: "Http://acm.magi.red"
+baseurl: "Http://blog.magi.red"
 name: Melchior
-slogan: More than a Wildcard.
+slogan: The Wildcard.
 paginate: 10
 paginate_path: "page:num"
 excerpt_separator:  '<!-- more -->'
