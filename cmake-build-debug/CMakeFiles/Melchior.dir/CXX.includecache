@@ -6,7 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/Users/libertyli/Desktop/Melchior/LUOGU_P1001.cpp
+/Users/libertyli/Desktop/Melchior/POJ/POJ_1328.cpp
 iostream
+-
+cstdio
+-
+cmath
+-
+algorithm
 -
 

@@ -7,7 +7,6 @@ There will be some useful templated derived from practices in the TEMPLATE folde
 # Todo
 Problems
 - POJ
-    - 1328
     - 3190
 
 Template  
