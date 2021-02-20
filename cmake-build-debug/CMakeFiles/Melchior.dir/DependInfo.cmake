@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/libertyli/Desktop/Melchior/LUOGU/LUOGU_P1001.cpp" "/Users/libertyli/Desktop/Melchior/cmake-build-debug/CMakeFiles/Melchior.dir/LUOGU/LUOGU_P1001.cpp.o"
+  "/Users/libertyli/Desktop/Melchior/POJ/POJ_1328.cpp" "/Users/libertyli/Desktop/Melchior/cmake-build-debug/CMakeFiles/Melchior.dir/POJ/POJ_1328.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

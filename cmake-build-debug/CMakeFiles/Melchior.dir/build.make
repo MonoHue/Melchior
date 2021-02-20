@@ -54,10 +54,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = "/Users/libertyli/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/203.6682.181/CLion.app/Contents/bin/cmake/mac/bin/cmake"
+CMAKE_COMMAND = "/Users/libertyli/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/203.7148.70/CLion.app/Contents/bin/cmake/mac/bin/cmake"
 
 # The command to remove a file.
-RM = "/Users/libertyli/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/203.6682.181/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E rm -f
+RM = "/Users/libertyli/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/203.7148.70/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -77,27 +77,27 @@ include CMakeFiles/Melchior.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Melchior.dir/flags.make
 
-CMakeFiles/Melchior.dir/LUOGU/LUOGU_P1001.cpp.o: CMakeFiles/Melchior.dir/flags.make
-CMakeFiles/Melchior.dir/LUOGU/LUOGU_P1001.cpp.o: ../LUOGU/LUOGU_P1001.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/libertyli/Desktop/Melchior/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Melchior.dir/LUOGU/LUOGU_P1001.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Melchior.dir/LUOGU/LUOGU_P1001.cpp.o -c /Users/libertyli/Desktop/Melchior/LUOGU/LUOGU_P1001.cpp
+CMakeFiles/Melchior.dir/POJ/POJ_1328.cpp.o: CMakeFiles/Melchior.dir/flags.make
+CMakeFiles/Melchior.dir/POJ/POJ_1328.cpp.o: ../POJ/POJ_1328.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/libertyli/Desktop/Melchior/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Melchior.dir/POJ/POJ_1328.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Melchior.dir/POJ/POJ_1328.cpp.o -c /Users/libertyli/Desktop/Melchior/POJ/POJ_1328.cpp
 
-CMakeFiles/Melchior.dir/LUOGU/LUOGU_P1001.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Melchior.dir/LUOGU/LUOGU_P1001.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/libertyli/Desktop/Melchior/LUOGU/LUOGU_P1001.cpp > CMakeFiles/Melchior.dir/LUOGU/LUOGU_P1001.cpp.i
+CMakeFiles/Melchior.dir/POJ/POJ_1328.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Melchior.dir/POJ/POJ_1328.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/libertyli/Desktop/Melchior/POJ/POJ_1328.cpp > CMakeFiles/Melchior.dir/POJ/POJ_1328.cpp.i
 
-CMakeFiles/Melchior.dir/LUOGU/LUOGU_P1001.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Melchior.dir/LUOGU/LUOGU_P1001.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/libertyli/Desktop/Melchior/LUOGU/LUOGU_P1001.cpp -o CMakeFiles/Melchior.dir/LUOGU/LUOGU_P1001.cpp.s
+CMakeFiles/Melchior.dir/POJ/POJ_1328.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Melchior.dir/POJ/POJ_1328.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/libertyli/Desktop/Melchior/POJ/POJ_1328.cpp -o CMakeFiles/Melchior.dir/POJ/POJ_1328.cpp.s
 
 # Object files for target Melchior
 Melchior_OBJECTS = \
-"CMakeFiles/Melchior.dir/LUOGU/LUOGU_P1001.cpp.o"
+"CMakeFiles/Melchior.dir/POJ/POJ_1328.cpp.o"
 
 # External object files for target Melchior
 Melchior_EXTERNAL_OBJECTS =
 
-Melchior: CMakeFiles/Melchior.dir/LUOGU/LUOGU_P1001.cpp.o
+Melchior: CMakeFiles/Melchior.dir/POJ/POJ_1328.cpp.o
 Melchior: CMakeFiles/Melchior.dir/build.make
 Melchior: CMakeFiles/Melchior.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/libertyli/Desktop/Melchior/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Melchior"

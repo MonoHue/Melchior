@@ -59,10 +59,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = "/Users/libertyli/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/203.6682.181/CLion.app/Contents/bin/cmake/mac/bin/cmake"
+CMAKE_COMMAND = "/Users/libertyli/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/203.7148.70/CLion.app/Contents/bin/cmake/mac/bin/cmake"
 
 # The command to remove a file.
-RM = "/Users/libertyli/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/203.6682.181/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E rm -f
+RM = "/Users/libertyli/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/203.7148.70/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -79,7 +79,7 @@ CMAKE_BINARY_DIR = /Users/libertyli/Desktop/Melchior/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"/Users/libertyli/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/203.6682.181/CLion.app/Contents/bin/cmake/mac/bin/cmake" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"/Users/libertyli/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/203.7148.70/CLion.app/Contents/bin/cmake/mac/bin/cmake" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -90,7 +90,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"/Users/libertyli/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/203.6682.181/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E echo No\ interactive\ CMake\ dialog\ available.
+	"/Users/libertyli/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/203.7148.70/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -143,32 +143,32 @@ Melchior/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Melchior.dir/build.make CMakeFiles/Melchior.dir/build
 .PHONY : Melchior/fast
 
-LUOGU/LUOGU_P1001.o: LUOGU/LUOGU_P1001.cpp.o
+POJ/POJ_1328.o: POJ/POJ_1328.cpp.o
 
-.PHONY : LUOGU/LUOGU_P1001.o
+.PHONY : POJ/POJ_1328.o
 
 # target to build an object file
-LUOGU/LUOGU_P1001.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Melchior.dir/build.make CMakeFiles/Melchior.dir/LUOGU/LUOGU_P1001.cpp.o
-.PHONY : LUOGU/LUOGU_P1001.cpp.o
+POJ/POJ_1328.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Melchior.dir/build.make CMakeFiles/Melchior.dir/POJ/POJ_1328.cpp.o
+.PHONY : POJ/POJ_1328.cpp.o
 
-LUOGU/LUOGU_P1001.i: LUOGU/LUOGU_P1001.cpp.i
+POJ/POJ_1328.i: POJ/POJ_1328.cpp.i
 
-.PHONY : LUOGU/LUOGU_P1001.i
+.PHONY : POJ/POJ_1328.i
 
 # target to preprocess a source file
-LUOGU/LUOGU_P1001.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Melchior.dir/build.make CMakeFiles/Melchior.dir/LUOGU/LUOGU_P1001.cpp.i
-.PHONY : LUOGU/LUOGU_P1001.cpp.i
+POJ/POJ_1328.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Melchior.dir/build.make CMakeFiles/Melchior.dir/POJ/POJ_1328.cpp.i
+.PHONY : POJ/POJ_1328.cpp.i
 
-LUOGU/LUOGU_P1001.s: LUOGU/LUOGU_P1001.cpp.s
+POJ/POJ_1328.s: POJ/POJ_1328.cpp.s
 
-.PHONY : LUOGU/LUOGU_P1001.s
+.PHONY : POJ/POJ_1328.s
 
 # target to generate assembly for a file
-LUOGU/LUOGU_P1001.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Melchior.dir/build.make CMakeFiles/Melchior.dir/LUOGU/LUOGU_P1001.cpp.s
-.PHONY : LUOGU/LUOGU_P1001.cpp.s
+POJ/POJ_1328.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Melchior.dir/build.make CMakeFiles/Melchior.dir/POJ/POJ_1328.cpp.s
+.PHONY : POJ/POJ_1328.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Melchior"
-	@echo "... LUOGU/LUOGU_P1001.o"
-	@echo "... LUOGU/LUOGU_P1001.i"
-	@echo "... LUOGU/LUOGU_P1001.s"
+	@echo "... POJ/POJ_1328.o"
+	@echo "... POJ/POJ_1328.i"
+	@echo "... POJ/POJ_1328.s"
 .PHONY : help
 
 
