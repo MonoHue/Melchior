@@ -7,7 +7,9 @@ There will be some useful templated derived from practices in the TEMPLATE folde
 # Todo
 Problems
 - POJ
-    - 3190
+  - 1017
+  - 1862
+  - 3262
 
 Template  
 - Disjoint Set

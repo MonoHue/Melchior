@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Melchior.dir/POJ/POJ_1328.cpp.o"
+  "CMakeFiles/Melchior.dir/POJ/POJ_3190.cpp.o"
   "Melchior"
   "Melchior.pdb"
 )

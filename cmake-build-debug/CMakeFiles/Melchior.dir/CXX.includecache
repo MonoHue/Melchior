@@ -6,13 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/Users/libertyli/Desktop/Melchior/POJ/POJ_1328.cpp
-iostream
--
+/Users/libertyli/Desktop/Melchior/POJ/POJ_3190.cpp
 cstdio
 -
-cmath
--
-algorithm
+queue
 -
 
