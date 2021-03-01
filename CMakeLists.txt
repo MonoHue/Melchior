@@ -4,4 +4,4 @@ project(Melchior)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(Melchior
-        POJ/POJ_1862.cpp)
+        POJ/POJ_3262.cpp)

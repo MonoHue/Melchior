@@ -77,27 +77,27 @@ include CMakeFiles/Melchior.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Melchior.dir/flags.make
 
-CMakeFiles/Melchior.dir/POJ/POJ_1862.cpp.o: CMakeFiles/Melchior.dir/flags.make
-CMakeFiles/Melchior.dir/POJ/POJ_1862.cpp.o: ../POJ/POJ_1862.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/libertyli/Desktop/Melchior/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Melchior.dir/POJ/POJ_1862.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Melchior.dir/POJ/POJ_1862.cpp.o -c /Users/libertyli/Desktop/Melchior/POJ/POJ_1862.cpp
+CMakeFiles/Melchior.dir/POJ/POJ_3262.cpp.o: CMakeFiles/Melchior.dir/flags.make
+CMakeFiles/Melchior.dir/POJ/POJ_3262.cpp.o: ../POJ/POJ_3262.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/libertyli/Desktop/Melchior/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Melchior.dir/POJ/POJ_3262.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Melchior.dir/POJ/POJ_3262.cpp.o -c /Users/libertyli/Desktop/Melchior/POJ/POJ_3262.cpp
 
-CMakeFiles/Melchior.dir/POJ/POJ_1862.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Melchior.dir/POJ/POJ_1862.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/libertyli/Desktop/Melchior/POJ/POJ_1862.cpp > CMakeFiles/Melchior.dir/POJ/POJ_1862.cpp.i
+CMakeFiles/Melchior.dir/POJ/POJ_3262.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Melchior.dir/POJ/POJ_3262.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/libertyli/Desktop/Melchior/POJ/POJ_3262.cpp > CMakeFiles/Melchior.dir/POJ/POJ_3262.cpp.i
 
-CMakeFiles/Melchior.dir/POJ/POJ_1862.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Melchior.dir/POJ/POJ_1862.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/libertyli/Desktop/Melchior/POJ/POJ_1862.cpp -o CMakeFiles/Melchior.dir/POJ/POJ_1862.cpp.s
+CMakeFiles/Melchior.dir/POJ/POJ_3262.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Melchior.dir/POJ/POJ_3262.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/libertyli/Desktop/Melchior/POJ/POJ_3262.cpp -o CMakeFiles/Melchior.dir/POJ/POJ_3262.cpp.s
 
 # Object files for target Melchior
 Melchior_OBJECTS = \
-"CMakeFiles/Melchior.dir/POJ/POJ_1862.cpp.o"
+"CMakeFiles/Melchior.dir/POJ/POJ_3262.cpp.o"
 
 # External object files for target Melchior
 Melchior_EXTERNAL_OBJECTS =
 
-Melchior: CMakeFiles/Melchior.dir/POJ/POJ_1862.cpp.o
+Melchior: CMakeFiles/Melchior.dir/POJ/POJ_3262.cpp.o
 Melchior: CMakeFiles/Melchior.dir/build.make
 Melchior: CMakeFiles/Melchior.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/libertyli/Desktop/Melchior/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Melchior"

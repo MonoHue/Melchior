@@ -21,7 +21,7 @@ int main()  {
     for(int i = 0;i < n;i++)    cin >> nums[i];
     sort(nums, nums + n, greater<double>());
 
-    if(n == 1)  {
+    if(n == 1)  {   //Special Judge
         cout << fixed << setprecision(3) << nums[0];
     }
     else    {
