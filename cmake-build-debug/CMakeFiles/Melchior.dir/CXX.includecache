@@ -6,7 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/Users/libertyli/Desktop/Melchior/POJ/POJ_1017.cpp
+/Users/libertyli/Desktop/Melchior/POJ/POJ_1862.cpp
 cstdio
+-
+iostream
+-
+iomanip
+-
+cmath
+-
+algorithm
 -
 
