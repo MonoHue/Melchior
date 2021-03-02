@@ -7,8 +7,6 @@ There will be some useful templated derived from practices in the TEMPLATE folde
 # Todo
 Problems
 - POJ
-  - Chapter 2.2
-    - 3262
   - Chapter 2.3
     - 2229
     - 2385
