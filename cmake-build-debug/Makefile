@@ -143,32 +143,32 @@ Melchior/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Melchior.dir/build.make CMakeFiles/Melchior.dir/build
 .PHONY : Melchior/fast
 
-POJ/POJ_2385.o: POJ/POJ_2385.cpp.o
+POJ/POJ_1703.o: POJ/POJ_1703.cpp.o
 
-.PHONY : POJ/POJ_2385.o
+.PHONY : POJ/POJ_1703.o
 
 # target to build an object file
-POJ/POJ_2385.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Melchior.dir/build.make CMakeFiles/Melchior.dir/POJ/POJ_2385.cpp.o
-.PHONY : POJ/POJ_2385.cpp.o
+POJ/POJ_1703.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Melchior.dir/build.make CMakeFiles/Melchior.dir/POJ/POJ_1703.cpp.o
+.PHONY : POJ/POJ_1703.cpp.o
 
-POJ/POJ_2385.i: POJ/POJ_2385.cpp.i
+POJ/POJ_1703.i: POJ/POJ_1703.cpp.i
 
-.PHONY : POJ/POJ_2385.i
+.PHONY : POJ/POJ_1703.i
 
 # target to preprocess a source file
-POJ/POJ_2385.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Melchior.dir/build.make CMakeFiles/Melchior.dir/POJ/POJ_2385.cpp.i
-.PHONY : POJ/POJ_2385.cpp.i
+POJ/POJ_1703.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Melchior.dir/build.make CMakeFiles/Melchior.dir/POJ/POJ_1703.cpp.i
+.PHONY : POJ/POJ_1703.cpp.i
 
-POJ/POJ_2385.s: POJ/POJ_2385.cpp.s
+POJ/POJ_1703.s: POJ/POJ_1703.cpp.s
 
-.PHONY : POJ/POJ_2385.s
+.PHONY : POJ/POJ_1703.s
 
 # target to generate assembly for a file
-POJ/POJ_2385.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Melchior.dir/build.make CMakeFiles/Melchior.dir/POJ/POJ_2385.cpp.s
-.PHONY : POJ/POJ_2385.cpp.s
+POJ/POJ_1703.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Melchior.dir/build.make CMakeFiles/Melchior.dir/POJ/POJ_1703.cpp.s
+.PHONY : POJ/POJ_1703.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Melchior"
-	@echo "... POJ/POJ_2385.o"
-	@echo "... POJ/POJ_2385.i"
-	@echo "... POJ/POJ_2385.s"
+	@echo "... POJ/POJ_1703.o"
+	@echo "... POJ/POJ_1703.i"
+	@echo "... POJ/POJ_1703.s"
 .PHONY : help
 
 

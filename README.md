@@ -12,6 +12,9 @@ Problems
     - 2385
     - 3616
     - 3280
+  - Chapter 2.5
+    - 3259
+    - 3268
 
 Template  
 - Disjoint Set

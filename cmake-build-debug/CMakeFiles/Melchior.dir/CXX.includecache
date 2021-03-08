@@ -6,7 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/Users/libertyli/Desktop/Melchior/POJ/POJ_2229.cpp
+/Users/libertyli/Desktop/Melchior/POJ/POJ_1703.cpp
 iostream
+-
+cstdio
 -
 
