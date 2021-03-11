@@ -1,3 +1,0 @@
-/Users/libertyli/Desktop/Melchior/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/libertyli/Desktop/Melchior/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/libertyli/Desktop/Melchior/cmake-build-debug/CMakeFiles/Melchior.dir
