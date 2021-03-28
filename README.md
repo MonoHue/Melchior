@@ -8,7 +8,6 @@ There will be some useful templated derived from practices in the TEMPLATE folde
 Problems
 - POJ
   - Chapter 2.3
-    - 2229
     - 2385
     - 3616
     - 3280
