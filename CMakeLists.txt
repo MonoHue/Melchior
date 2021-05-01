@@ -4,4 +4,4 @@ project(Melchior)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(Melchior
-        LUOGU/LUOGU_P3385.cpp)
+        GCJ/2021/1C/B.cpp)
