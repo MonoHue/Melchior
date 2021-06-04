@@ -5,12 +5,13 @@
 #include <algorithm>
 using namespace std;
 
+
 int main()  {
     int testcases;
     cin >> testcases;
     while(testcases --> 0)  {
         long long len, ans = 0, cnt = 0;
-        char word[200];
+        char word[150000];
         scanf("%lld", &len);
         scanf("%s", word);
 
@@ -22,11 +23,11 @@ int main()  {
         }
 
         int leftcount = 0, rightcount = 0;
-        for(int i = midlocation + 1;i < len;i++)    if(word[i] == '*')  {
+        if(midlocation <= len - 2)  for(int i = midlocation + 1;i < len;i++)    if(word[i] == '*')  {
             rightcount++;
             ans += i - midlocation - rightcount;
         }
-        for(int i = midlocation - 1;i >= 0;i--)    if(word[i] == '*')  {
+        if(midlocation >= 1)    for(int i = midlocation - 1;i >= 0;i--)    if(word[i] == '*')  {
             leftcount++;
             ans += midlocation - i - leftcount;
         }
