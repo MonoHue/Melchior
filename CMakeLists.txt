@@ -4,4 +4,4 @@ project(Melchior)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(Melchior
-        Codeforces/1551/C.cpp)
+        Codeforces/1552/C.cpp)
