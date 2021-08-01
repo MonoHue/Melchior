@@ -1,10 +1,7 @@
 # Melchior
-'Couldn't stay all my life down at heel.'
+An archive of code for competitive programming.
 
-This repo served as an archive of AC codes.  
-There will be some useful templated derived from practices in the TEMPLATE folder.
-
-# Todo
+# Todos
 Problems
 - POJ
   - Chapter 2.3
@@ -18,7 +15,7 @@ Problems
 - Luogu
   - 3385
 
-Template  
+Templates  
 - Disjoint Set
 
 Blog
