@@ -4,4 +4,4 @@ project(Melchior)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(Melchior
-        Astar/2021/pre2/1004.cpp)
+        Codeforces/1559/D.cpp)
