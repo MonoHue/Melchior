@@ -3,5 +3,11 @@ project(Melchior)
 
 set(CMAKE_CXX_STANDARD 14)
 
+#add_executable(Melchior
+#        Codeforces/1559/D1.cpp)
+
+#add_executable(Melchior
+#        LUOGU/LUOGU_P3385.cpp)
+
 add_executable(Melchior
-        Codeforces/1559/D1.cpp)
+        POJ/POJ_1127.cpp)
