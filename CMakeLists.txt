@@ -7,7 +7,13 @@ set(CMAKE_CXX_STANDARD 14)
 #        Codeforces/1559/D1.cpp)
 
 #add_executable(Melchior
-#        LUOGU/LUOGU_P3385.cpp)
+#        LUOGU/LUOGU_P3372.cpp)
+
+#add_executable(Melchior
+#        POJ/POJ_1127.cpp)
+
+#add_executable(Melchior
+#        CCPC/2021/Huawei/1002.cpp)
 
 add_executable(Melchior
-        POJ/POJ_1127.cpp)
+        Astar/2021/semifinal/1001.cpp)

@@ -1,26 +1,36 @@
 #include <cstdio>
+
 using namespace std;
 
-const int RANGE = 10e5 + 10;
+int nsize, opt, treesize = 1;
+const int MAX_N = 1e5 + 10;
 
-int n = 1, dat[RANGE * 2];
+int segtree[2 * MAX_N];
+
+void add()  {
+
+}
+
+int query() {
+    return 0;
+}
 
 int main() {
-    int n_, m;
-    scanf("%d%d", &n_, &m);
-    while (n < n_) n_ <<= 1;
-    for (int i = 0; i < n_; i++) {
-        int t;
-        scanf("%d", &t);
-        update(i, t);
-    }
-    while (m-- > 0) {
-        int opt, x, y, k;
-        scanf("%d%d%d", &opt, &x, &y);
-        if (opt == 1) { //Add
-            scanf("%d", &k);
-            update(x, k);
-        } else {   //Sum
+    scanf("%d%d", &nsize, &opt);
+    while (treesize < nsize) treesize <<= 1;
+
+    for (int i = treesize - 1; i < nsize + treesize - 1; i++) scanf("%d", &segtree[i]);
+    for (int i = treesize - 2; i >= 0; i--) segtree[i] = segtree[2 * i + 1] + segtree[2 * i + 2];
+
+    while(opt--)    {
+        int order;
+        scanf("%d", &order);
+        if(order == 1)  {
+            int x, y, k;
+            scanf("%d%d%d", &x, &y ,&k);
+            add(x, y, k);
+        }
+        else {
 
         }
     }
