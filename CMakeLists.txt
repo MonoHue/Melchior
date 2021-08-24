@@ -15,5 +15,8 @@ set(CMAKE_CXX_STANDARD 14)
 #add_executable(Melchior
 #        CCPC/2021/Huawei/1002.cpp)
 
+#add_executable(Melchior
+#        Astar/2021/semifinal/1001.cpp)
+
 add_executable(Melchior
-        Astar/2021/semifinal/1001.cpp)
+        Google/kickstart/2021/E/A.cpp)
