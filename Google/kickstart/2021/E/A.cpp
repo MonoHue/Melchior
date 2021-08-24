@@ -15,7 +15,7 @@ int main() {
     cin >> testcases;
     for (int cases = 1; cases <= testcases; cases++) {
         priority_queue<pair<int, char>, vector<pair<int, char> > > heap;
-        priority_queue<pair<int, char>, vector<pair<int, char> > , greater<pair<> > heap;
+        priority_queue<pair<int, char>, vector<pair<int, char> > , greater<pair<int, char> > > heap_r;
         for (int i = 0; i < 300; i++) occur[i] = 0;
         for (int i = 0; i < 10010; i++) word[i] = 0;
         for (int i = 0; i < 10010; i++) newword[i] = 0;
