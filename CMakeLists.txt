@@ -3,8 +3,8 @@ project(Melchior)
 
 set(CMAKE_CXX_STANDARD 14)
 
-#add_executable(Melchior
-#        Codeforces/1574/C.cpp)
+add_executable(Melchior
+        Codeforces/1626/C.cpp)
 
 #add_executable(Melchior
 #        LUOGU/LUOGU_P3372.cpp)
@@ -18,5 +18,5 @@ set(CMAKE_CXX_STANDARD 14)
 #add_executable(Melchior
 #        Astar/2021/semifinal/1001.cpp)
 
-add_executable(Melchior
-        Google/kickstart/2021/G/A.cpp)
+#add_executable(Melchior
+#        Google/kickstart/2021/G/A.cpp)
