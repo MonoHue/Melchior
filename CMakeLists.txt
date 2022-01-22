@@ -4,7 +4,7 @@ project(Melchior)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(Melchior
-        Codeforces/1626/C.cpp)
+        Codeforces/1629/D.cpp)
 
 #add_executable(Melchior
 #        LUOGU/LUOGU_P3372.cpp)
