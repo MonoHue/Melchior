@@ -3,11 +3,11 @@ project(Melchior)
 
 set(CMAKE_CXX_STANDARD 14)
 
-#add_executable(Melchior
-#        Codeforces/1629/D.cpp)
-
 add_executable(Melchior
-        Atcoder/abc236/E.cpp)
+        Codeforces/1634/D.cpp)
+
+#add_executable(Melchior
+#        Atcoder/abc238/F.cpp)
 
 #add_executable(Melchior
 #        LUOGU/LUOGU_P3372.cpp)
