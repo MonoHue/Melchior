@@ -1,13 +1,13 @@
 cmake_minimum_required(VERSION 3.17)
 project(Melchior)
 
-set(CMAKE_CXX_STANDARD 14)
-
-add_executable(Melchior
-        Codeforces/1634/D.cpp)
+set(CMAKE_CXX_STANDARD 17)
 
 #add_executable(Melchior
-#        Atcoder/abc238/F.cpp)
+#        Codeforces/1646/D.cpp)
+
+add_executable(Melchior
+        Atcoder/abc243/E.cpp)
 
 #add_executable(Melchior
 #        LUOGU/LUOGU_P3372.cpp)
