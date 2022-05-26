@@ -1,11 +1,11 @@
 ---
-title: 如何在国内使用Apple News+
+title: 如何在国内使用Apple News
 author: monohue
 layout: post
 excerpt: 是目前最好的方法吗？
 ---
 
-# 如何在国内使用Apple News+
+# 如何在国内使用Apple News
 
 [Apple News+](https://www.apple.com/apple-news/)是苹果推出的付费新闻订阅服务。Apple News关联的媒体所写的文章，经常出现在中高考的考卷上，也是英语学习者锻炼英语能力的优秀材料。
 
