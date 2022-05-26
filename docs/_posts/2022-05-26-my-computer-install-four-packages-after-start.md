@@ -5,8 +5,6 @@ layout: post
 excerpt: 怎么会这样？太逆天了！
 ---
 
-# 我的电脑在开机的时候总是想要安装4个包
-
 > 本文基于[这篇帖子](https://www.reddit.com/r/WindowsHelp/comments/q7xggo/comment/hing7nb/?utm_source=share&utm_medium=web2x&context=3)整理翻译出来，感谢作者的研究。
 
 # 背景和问题
