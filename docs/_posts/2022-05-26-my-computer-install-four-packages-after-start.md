@@ -7,7 +7,7 @@ excerpt: 怎么会这样？太逆天了！
 
 > 本文基于[这篇帖子](https://www.reddit.com/r/WindowsHelp/comments/q7xggo/comment/hing7nb/?utm_source=share&utm_medium=web2x&context=3)整理翻译出来，感谢作者的研究。
 
-# 背景和问题
+## 背景和问题
 
 前段时间，身边很多朋友的电脑一开机，微软商店就安装四个包，他们分别是：
 
@@ -16,9 +16,9 @@ excerpt: 怎么会这样？太逆天了！
 - Microsoft visual C++ 2015 UWP desktop runtime package
 - DirectX Runtime
 
-因为某些原因，微软商店这几个包永远没法没法安装成功。中文区没有太多关于这个问题的资料，于是记录了如何修复的过程。
+因为某些原因，微软商店这几个包永远没法安装成功。中文区没有太多关于这个问题的资料，于是记录了如何修复的过程。
 
-# 解决方法
+## 解决方法
 
 首先，下载这四个文件：
 
