@@ -1,6 +1,6 @@
 baseurl: "Http://blog.magi.red"
 name: Melchior
-slogan: The Wildcard.
+slogan: Exploring the very nature of science.
 paginate: 10
 paginate_path: "page:num"
 excerpt_separator:  '<!-- more -->'
