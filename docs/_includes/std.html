@@ -5,9 +5,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@1,700&display=swap" rel="stylesheet">
 
     {% if page.title %}
-    <meta content="article" property="og:type">
+    <meta property="og:type" content="article">
     {% else %}
-    <meta content="website" property="og:type">
+    <meta property="og:type" content="website">
     {% endif %}
     <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl }}" />
     <meta property="og:title" content="{{ page.title | append: site.websuffix }}" />
