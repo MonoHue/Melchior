@@ -4,12 +4,14 @@
     <link href="https://unpkg.com/@primer/css/dist/primer.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@1,700&display=swap" rel="stylesheet">
 
-    <meta property="og:type" content="article" />
+    {% if page.title %}
+    <meta content="article" property="og:type">
+    {% else %}
+    <meta content="website" property="og:type">
+    {% endif %}
     <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl }}" />
     <meta property="og:title" content="{{ page.title | append: site.websuffix }}" />
     <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 140 }}{% else %}{{ site.description }}{% endif %}" />
-    <meta property="og:image"   content="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/325/lemon_1f34b.png">
-    <link rel="icon" href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/325/lemon_1f34b.png">
 
     <title>{{ page.title | append: site.websuffix }}</title>
 </head>
