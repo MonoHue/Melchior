@@ -4,10 +4,10 @@ project(Melchior)
 set(CMAKE_CXX_STANDARD 17)
 
 #add_executable(Melchior
-#        Codeforces/1646/D.cpp)
+#        Codeforces/1706/C.cpp)
 
-#add_executable(Melchior
-#        Atcoder/abc243/E.cpp)
+add_executable(Melchior
+        Atcoder/abc261/E.cpp)
 
 #add_executable(Melchior
 #        LUOGU/LUOGU_P3372.cpp)
@@ -22,7 +22,7 @@ set(CMAKE_CXX_STANDARD 17)
 #        Astar/2021/semifinal/1001.cpp)
 
 #add_executable(Melchior
-#        Google/kickstart/2021/G/A.cpp)
+#        Google/kickstart/2022/Practice2/E.cpp)
 
-add_executable(Melchior
-        Google/codejam/2022/1C/A.cpp)
+#add_executable(Melchior
+#        Google/codejam/2022/1C/A.cpp)
