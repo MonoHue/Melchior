@@ -1,6 +1,7 @@
-baseurl: "Http://blog.magi.red"
+baseurl: "http://blog.magi.red"
 name: Melchior
 slogan: Exploring the very nature of science.
+description: My Blog.
 paginate: 10
 paginate_path: "page:num"
 excerpt_separator:  '<!-- more -->'
