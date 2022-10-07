@@ -6,6 +6,8 @@ layout: post
 
 前段时间，身边很多朋友的电脑一开机，微软商店就安装四个包。因为某些原因，这几个包永远没法安装成功。中文区没有太多关于这个问题的资料，于是记录了如何修复的过程。
 
+<!-- more -->
+
 这四个包分别是：
 
 - Microsoft visual C++ 2012 UWP desktop runtime package
