@@ -47,6 +47,6 @@ layout: post
 
 这样以后开机就不会出现微软商店在安装什么什么的提示了，希望能帮到大家！
 
-## UPD
+## UPD Oct.7, 2022
 
-好像现在的Windows Update修了这个问题。
+好像现在的Windows Update修复了这个问题。
