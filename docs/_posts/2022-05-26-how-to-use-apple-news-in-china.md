@@ -31,7 +31,7 @@ layout: post
 
 > ### 直接告诉我怎么做吧
 > 
-> 在规则（对于小火箭而言是``config`` -> ``remote files`` -> ``add file``）中加入[这个连接](https://blog.magi.red/assets/misc/mona.conf)。
+> 在规则（对于小火箭而言是``config`` -> ``remote files`` -> ``add file``）中加入[这个连接](https://monohue.net/assets/misc/mona.conf)。
 > 
 > *长按可以复制链接，对于不同的软件，可能需要修改文件内容。*
 >
