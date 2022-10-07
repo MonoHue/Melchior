@@ -2,7 +2,6 @@
 title: 如何在国内使用Apple News
 author: monohue
 layout: post
-excerpt: 是目前最好的方法吗？
 ---
 
 [Apple News+](https://www.apple.com/apple-news/)是苹果推出的付费新闻订阅服务。Apple News关联的媒体所写的文章，经常出现在中高考的考卷上，也是英语学习者锻炼英语能力的优秀材料。
@@ -30,7 +29,7 @@ excerpt: 是目前最好的方法吗？
 
 > ### 直接告诉我怎么做吧
 > 
-> 在规则（对于小火箭而言是``config`` -> ``remote files`` -> ``add file``）中加入[这个连接](https://blog.magi.red/mona.conf)。
+> 在规则（对于小火箭而言是``config`` -> ``remote files`` -> ``add file``）中加入[这个连接](https://blog.magi.red/assets/misc/mona.conf)。
 > 
 > *长按可以复制链接，对于不同的软件，可能需要修改文件内容。*
 >
@@ -80,5 +79,3 @@ excerpt: 是目前最好的方法吗？
 - 勤开关科学上网软件。
 
 最后，谢谢你花时间阅读这篇文章，希望能对你有所帮助。
-
-***此致***

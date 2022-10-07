@@ -8,10 +8,11 @@
     <meta property="og:type" content="article">
     {% else %}
     <meta property="og:type" content="website">
+    <meta name="author" content="{{ author.name }}">
     {% endif %}
     <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl }}" />
     <meta property="og:title" content="{{ page.title | append: site.websuffix }}" />
-    <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 140 }}{% else %}{{ site.description }}{% endif %}" />
+    <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines }}{% else %}{{ site.description }}{% endif %}" />
     <link rel="icon" href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/325/lemon_1f34b.png">
 
     <title>{{ page.title | append: site.websuffix }}</title>

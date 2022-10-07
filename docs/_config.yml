@@ -1,8 +1,8 @@
 baseurl: "http://blog.magi.red"
 name: Melchior
 slogan: Exploring the very nature of science.
-description: My Blog.
+description: MonoHue's Blog.
 paginate: 10
 paginate_path: "page:num"
-excerpt_separator:  '<!-- more -->'
+excerpt_separator:  "<!-- more -->"
 websuffix: " - Melchior"
