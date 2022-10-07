@@ -6,9 +6,9 @@
 
     {% if page.title %}
     <meta property="og:type" content="article">
+    <meta name="author" content="{{ author.name }}">
     {% else %}
     <meta property="og:type" content="website">
-    <meta name="author" content="{{ author.name }}">
     {% endif %}
     <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl }}" />
     <meta property="og:title" content="{{ page.title | append: site.websuffix }}" />

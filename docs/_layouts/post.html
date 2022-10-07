@@ -11,9 +11,8 @@
         {% assign author = site.data.people[page.author] %}
         <div class="Subhead Subhead--spacious">
             <h1 class="Subhead-heading f00-light">{{ page.title }}</h1>
-            <div class="Subhead-description">{{ page.excerpt }}</div>
+            <div class="Subhead-description">{{ page.date | date_to_string }}, <a rel="author" href="{{ author.authorlink | prepend: site.baseurl}}" title="{{ author.nickname }}" class="text-bold">{{ author.nickname }}</a></div>
         </div>
-        <p class="mb-6">{{ page.date | date_to_string }}, <a rel="author" href="{{ author.authorlink | prepend: site.baseurl}}" title="{{ author.nickname }}" class="text-bold">{{ author.nickname }}</a></p>
 
         <div class="markdown-body">
             {{ page.content }}
