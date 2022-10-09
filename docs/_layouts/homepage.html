@@ -36,7 +36,7 @@
                     <div class="Subhead-description color-fg-subtle"><a rel="author"
                                                                         href="{{ author.authorlink | prepend: site.baseurl}}"
                                                                         title="{{ author.nickname }}"
-                                                                        class="text-bold">{{ author.nickname }}</a>&emsp{{ page.date | date: "%b %d, %Y" }}</div>
+                                                                        class="text-bold">{{ author.nickname }}</a>{{ page.date | date: "  %b %d, %Y" }}</div>
                     <div class="Subhead-actions"><a href="{{ post.url }}" title="{{ post.title }}" class="text-bold">Learn more</a></div>
                 </div>
                 <p>{{ post.excerpt | strip_html }}</p>
