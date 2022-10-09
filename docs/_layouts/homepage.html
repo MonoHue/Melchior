@@ -9,7 +9,8 @@
     {% include header.html %}
 
     <div class="Subhead color-bg-attention px-6 py-12">
-        <div class="Subhead-heading d-block h1-mktg text-emphasized color-fg-accent text-italic">Welcome to {{ site.name }}!
+        <div class="Subhead-heading d-block h1-mktg text-emphasized color-fg-accent text-italic">Welcome to {{ site.name
+            }}!
         </div>
         <div class="Subhead-description lead f2-light">{{ site.slogan }}</div>
     </div>
@@ -36,8 +37,11 @@
                     <div class="Subhead-description color-fg-subtle"><a rel="author"
                                                                         href="{{ author.authorlink | prepend: site.baseurl}}"
                                                                         title="{{ author.nickname }}"
-                                                                        class="text-bold">{{ author.nickname }}</a>{{ page.date | date: "  %b %d, %Y" }}</div>
-                    <div class="Subhead-actions"><a href="{{ post.url }}" title="{{ post.title }}" class="text-bold">Learn more</a></div>
+                                                                        class="text-bold">{{ author.nickname }}</a>
+                        {{ post.date | date: "  %b %d, %Y" }}
+                    </div>
+                    <div class="Subhead-actions"><a href="{{ post.url }}" title="{{ post.title }}" class="text-bold">Learn
+                        more</a></div>
                 </div>
                 <p>{{ post.excerpt | strip_html }}</p>
             </div>
