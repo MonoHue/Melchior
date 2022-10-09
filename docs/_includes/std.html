@@ -4,7 +4,7 @@
     <link href="https://unpkg.com/@primer/css/dist/primer.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@1,700&display=swap" rel="stylesheet">
 
-    {% if page.title %}
+    {% if page.layout == "post" %}
     <meta property="og:type" content="article">
     <meta name="author" content="{{ author.name }}">
     {% else %}
