@@ -9,3 +9,5 @@ excerpt_separator:  "<!-- more -->"
 websuffix: " - Melchior"
 lighttheme: "light"
 darktheme: "dark"
+sass:
+  style: compressed
