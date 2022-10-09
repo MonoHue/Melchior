@@ -40,7 +40,7 @@
                                                                                                           class="text-bold">{{ author.nickname }}</a></div>
                     <div class="Subhead-actions"><a href="{{ post.url }}" title="{{ post.title }}" class="text-bold">Learn more</a></div>
                 </div>
-                <p class="color-fg-muted">{{ post.excerpt | strip_html }}</p>
+                <p>{{ post.excerpt | strip_html }}</p>
             </div>
         </div>
         {% endfor %}
