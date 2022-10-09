@@ -30,8 +30,8 @@
             <div class="TimelineItem-body">
                 {% assign author = site.data.people[post.author] %}
                 <a rel="author" href="{{ author.authorlink | prepend: site.baseurl}}" title="{{ author.nickname }}"
-                   class="text-bold">{{ author.nickname }}</a> created
-                <a href="{{ post.url }}" title="{{ post.title }}" class="text-bold">{{ post.title }}</a>
+                   class="text-bold Link--secondary">{{ author.nickname }}</a> created
+                <a href="{{ post.url }}" title="{{ post.title }}" class="text-bold Link--secondary">{{ post.title }}</a>
                 <div class="Subhead Subhead--spacious">
                     <div class="Subhead-heading"><a href="{{ post.url }}" title="{{ post.title }}" class="text-bold Link--muted color-fg-default">{{ post.title }}</a></div>
                     <div class="Subhead-description color-fg-subtle"><a rel="author"
